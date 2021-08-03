@@ -70,15 +70,37 @@ section {
   padding: 60px;
 }
 
-/* Hero Style Start */
+
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('../images/flipped-hero-image.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
+
+.hero-cta {
+  display: inline-block;
+  text-align: right;
+}
+
+.hero-cta h2 {
+  font-size: 36px;
+  font-style: italic;
+  color:#fce138;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 160px;
+  
+}
+
+.hero-cta p {
+  font-size: 14px;
+  color:white;
+  width:460px;
+  
+}
 
 .hero-form {
   border: 3px solid #024e76;
