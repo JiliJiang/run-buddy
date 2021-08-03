@@ -11,3 +11,5 @@ https://JiliJiang.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Jili
+
+# Run Buddy Inc.
