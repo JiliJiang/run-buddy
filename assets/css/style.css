@@ -300,6 +300,7 @@ section {
 
 /*End of Trainers*/
 
+/*Start of Contacts*/
 
 .contact {
   background: #024e76;
@@ -307,36 +308,40 @@ section {
 
 .contact h2 {
   color: #fce138;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.contact-info iframe {
-  width: 400px;
-  height: 400px;
-  margin-left: 0;
+/*parent*/
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+  width: 100%;
 }
 
-.contact-form {
-  width: 100px;
-}
-.contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 30px;
+/*text*/
+
+.contact-info-text {
+  width: 28%;
+  margin-right:10px;
   color: white;
-}
-
-.contact-info h3 {
-  color: #fce138;
-  font-size: 32px;
-}
-
-.contact-info p,
-.contact-info address {
-  margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+}
+
+.contact-info-text h3 {
+  color: #fce138;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-info-text p,
+.contact-info-text address {
+  font-size: 18px;
   font-style: normal;
 }
 
@@ -344,5 +349,55 @@ section {
   color: #fce138;
 }
 
+/*form*/
 
+.contact-form {
+  width: 30%;
+  line-height: 1.5;
+}
+
+.contact-form h3 {
+  color: #fce138;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  color: #fff;
+  font-size: 20px;
+}
+
+.contact-form input {
+  color: #024e76;
+}
+
+#contact-name{
+  width: 320px;
+  line-height: 2;
+  font-size: 16px;
+}
+
+#contact-message {
+  width: 320px;
+  line-height: 3;
+  font-size: 16px;
+}
+
+.contact-form button {
+  color:#024e76;
+  background-color:#fce138;
+  width: 320px;
+  height: 30px;
+  font-size: 16px;
+}
+
+/*map*/
+.contact-map {
+  margin-top: 20px;
+}
+
+
+
+/*End of Contacts*/
 
